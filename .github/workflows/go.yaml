@@ -18,9 +18,6 @@ jobs:
           go-version: '1.23.3'
           cache-dependency-path: go.sum
 
-      - name: Build
-        run: go build -o ./bin/ -v ./...
-
       - name: Test
         run: go test -v ./...
 
