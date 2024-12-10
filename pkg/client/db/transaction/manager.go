@@ -6,8 +6,8 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/pkg/errors"
-	"github.com/sSmok/auth/internal/client/db"
-	"github.com/sSmok/auth/internal/client/db/pg"
+	"github.com/sSmok/platform_common/pkg/client/db"
+	"github.com/sSmok/platform_common/pkg/client/db/pg"
 )
 
 type manager struct {

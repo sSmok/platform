@@ -9,8 +9,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/sSmok/auth/internal/client/db"
-	"github.com/sSmok/auth/internal/client/db/prettier"
+	"github.com/sSmok/platform_common/pkg/client/db"
+	"github.com/sSmok/platform_common/pkg/client/db/prettier"
 )
 
 type key string

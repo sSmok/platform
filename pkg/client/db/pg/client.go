@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/sSmok/auth/internal/client/db"
+	"github.com/sSmok/platform_common/pkg/client/db"
 )
 
 type pgClient struct {
